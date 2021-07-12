@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+}
+
+#gameboard {
+    background-image: url(../images/bg_pic.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid violet;
+    box-shadow: 0 4px 10px 0 violet, 
+                0 6px 20px 0 blueviolet;
+    width: 75%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 10px;
+    color: beige;
+}
+
+h1 {
+    text-align: center;
+    color: violet;
+}
+
+.question {
+    margin-left: 25%;
+    margin-top: 100px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px black;
+}
+
+.notSelected,
+.selected {
+    margin-left: 25%;
+    margin-top: 2%;
+    width: 100px;
+}
+
+.selected {
+    background-color: skyblue;
+    opacity: 0.7;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#prev {
+    margin-right: 10px;
+}
+
+#prev,
+#next {
+    margin-top: 20px;
+    background-color: rgb(218, 113, 218);
+    border-radius: 10px;
+    padding: 7px;
+    width: 100px;
+    color: beige;
+    font-weight: bold;
+}
+
+#summary { 
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 9%;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+h2 {
+    color: violet;
+}
+
+span {
+    font-size: 1.3em;
+    text-shadow: 2px 2px blueviolet;
+    line-height: 2.5em;
+}
